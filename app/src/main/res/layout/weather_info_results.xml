@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:orientation="vertical"
+    tools:context="com.example.james.weatherdemo.Activities.WeatherInfoActivity"
+    tools:showIn="@layout/app_bar_menu">
+
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/info_layout"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:isScrollContainer="true"
+        android:orientation="horizontal"
+        android:scrollIndicators="bottom"
+        android:scrollbars="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <include
+            android:id="@+id/firstView"
+            layout="@layout/five_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/secondView"
+            layout="@layout/five_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/thirdView"
+            layout="@layout/five_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/fourthView"
+            layout="@layout/five_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/fifthView"
+            layout="@layout/five_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

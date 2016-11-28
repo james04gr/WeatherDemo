@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WeatherDemo</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="favorites">Your Favorite locations</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="umbrellapp">UmbrellApp</string>
+    <string name="TODAY">Today</string>
+</resources>
